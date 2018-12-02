@@ -13,3 +13,7 @@ Misconfiguring can have dire consequences and there is no guarantee that the
 defaults are optimal, so it is important to know how to tune things properly.
 This document explores which settings matter the most and why.
 ```
+### Scaling (Hypothetical)
+```
+As a website's traffic increases, so does the load on server equipment. This can lead to long response times, instability and even complete service shutdowns, making it impossible to ensure a good experience for all of your users. By separating the hosting of your business logic and Relational Database, you can optimize workloads with a combination of vertical and horizontal scaling. This lets you deliver a stable, responsive experience to your users, at a lower cost than simply throwing money at your hosting provider.
+```
