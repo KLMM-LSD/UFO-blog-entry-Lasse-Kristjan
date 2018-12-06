@@ -20,7 +20,14 @@ Each connection requires some additional bookkeeping which means more
 resource contention and overhead. It seems only reasonable to expect
 there to be natural limits to how far fixed hardware can be pushed.
 ```
-This can lead to long response times, instability and even complete service shutdowns, making it impossible to ensure a good experience for all of your users. By separating the hosting of your business logic and Relational Database, you can optimize workloads with a combination of vertical and horizontal scaling. This lets you deliver a stable, responsive experience to your users, at a lower cost than simply throwing money at your hosting provider.
+This can lead to long response times, instability and even complete service shutdowns, making it impossible to ensure a good experience for all of your users.
+```
+It goes without saying that just throwing more money at something is
+not a silver bullet. Horizontal scaling doesn't implement itself,
+and the concept of diminishing returns should also be taken into
+account.
+```
+By separating the hosting of your business logic and Relational Database, you can optimize workloads with a combination of vertical and horizontal scaling. This lets you deliver a stable, responsive experience to your users, at a lower cost than simply throwing money at your hosting provider.
 
 - How to scale and load balance?
 
