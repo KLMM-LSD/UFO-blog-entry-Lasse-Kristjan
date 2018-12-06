@@ -27,7 +27,16 @@ not a silver bullet. Horizontal scaling doesn't implement itself,
 and the concept of diminishing returns should also be taken into
 account.
 ```
-By separating the hosting of your business logic and Relational Database, you can optimize workloads with a combination of vertical and horizontal scaling. This lets you deliver a stable, responsive experience to your users, at a lower cost than simply throwing money at your hosting provider.
+By separating the hosting of your business logic and Relational Database, you can optimize workloads with a combination of vertical and horizontal scaling.
+```
+Scaling an application means allocating resources to match its needs. There is no one-size-fits-all solution: For example,
+most Relational Database Systems (MySQL, MS SQL Server, PostgreSQL) are designed to be monolithic and scale vertically, 
+while newer paradigms like Distributed Databases are designed to make effective use of horizontal scaling. 
+```
+This lets you deliver a stable, responsive experience to your users, at a lower cost than simply throwing money at your hosting provider.
+```
+Scaling up can be an expensive investment, and choosing the right method of scaling for each technology is essential to achieving the greatest possible return on that investment. A powerful machine running under no load equals wasted money, but so do multiple load-balancing nodes if they're not pulling their weight.
+```
 
 - How to scale and load balance?
 
