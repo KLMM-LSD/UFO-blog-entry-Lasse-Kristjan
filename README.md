@@ -35,7 +35,9 @@ while newer paradigms like Distributed Databases are designed to make effective 
 ```
 This lets you deliver a stable, responsive experience to your users, at a lower cost than simply throwing money at your hosting provider.
 ```
-Scaling up can be an expensive investment, and choosing the right method of scaling for each technology is essential to achieving the greatest possible return on that investment. A powerful machine running under no load equals wasted money, but so do multiple load-balancing nodes if they're not pulling their weight.
+Scaling up can be an expensive investment, and choosing the right method of scaling for each technology is essential to achieving
+the greatest possible return on that investment. A powerful machine running under no load equals wasted money, but so do multiple
+load-balancing nodes if they're not pulling their weight.
 ```
 
 - How to scale and load balance?
