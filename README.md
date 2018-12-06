@@ -23,3 +23,4 @@ Example topics
 - How does vertical up/down scaling affect the project response times
 - Horizontal scaling and better latencies thanks to proximity
   - Simmulate load
+- IDs determined berforehand, artificial issue
