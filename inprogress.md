@@ -23,3 +23,11 @@ Steps needed to scale:
 2. Identify components that can be split up and made independent
 3. Load balance
 
+So first we replicated the entire setup on a small droplet.
+These are the components of the service:
+
+- main java server software
+- mysql
+- python server for misc perf charts
+
+On our LSD project, all of these run on the same droplet.
