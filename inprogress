@@ -1,0 +1,14 @@
+SCALING
+
+==============================
+What, How, When, Why
+==============================
+
+One of the nicest problems that you could ever have is that you have a
+service that is just so popular, that it struggles to handle serving all
+of your users. It is certainly a much better problem to have than not
+having any users at all!
+
+While the load put on the service we made for the LSD project is nowhere
+near enough for it to break a sweat, we will simulate a higher load on a
+weaker instance to demonstrate the issues and how they can be solved.
